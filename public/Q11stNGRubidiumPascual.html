@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lifetime Snack Supply Calculator</title>
+</head>
+<body>
+  <h1>Lifetime Snack Supply Calculator</h1>
+  <p id="result"></p>
+
+  <script>
+    let age = 14;
+    let maxAge = 100;
+    let numPerDay = 3; 
+
+    let totalRequired = (numPerDay * 365) * (maxAge - age);
+
+    document.getElementById("result").textContent = 
+      "You will need " + totalRequired + " to last you until the ripe old age of " + maxAge + ".";
+  </script>
+</body>
+</html>
