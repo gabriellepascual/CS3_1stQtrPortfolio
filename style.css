@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy&display=swap');
 
 html, body {
   height: 100%;
@@ -7,7 +7,7 @@ html, body {
 }
 
 body {
-  background-image: url("images/rapunzel.jpg");
+  background-image: url("images/peppa_pig.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -17,14 +17,20 @@ body {
 .w3-container {
   text-align: center;
   color: white;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .w3-container h1 {
   font-size: 6em;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Sour Gummy', sans-serif;
   font-weight: 700;
-  text-shadow: 2px 2px 4px #000000;
+  color: #ff6e87;
+
+  text-shadow:
+    -3px -3px 0 #5d9ddc,
+    3px -3px 0 #5d9ddc,
+    -3px 3px 0 #5d9ddc,
+    3px 3px 0 #5d9ddc;
 }
 
 .w3-container ul {
