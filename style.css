@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  background-image: url("images/rapunzel.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.w3-container {
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+}
+
+.w3-container h1 {
+  font-size: 6em;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.w3-container ul {
+  list-style-type: disc;
+  text-align: left;
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.w3-container li {
+  font-size: 2em;
+  font-family: 'Verdana', sans-serif;
+  text-shadow: 1px 1px 2px #000000;
+  margin-bottom: 10px;
+}
+
+.w3-container a {
+  color: white;
+  text-decoration: none;
+}
+
+.w3-container a:hover {
+  text-decoration: underline;
+}
