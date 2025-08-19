@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lifetime Snack Supply Calculator</title>
+</head>
+<body>
+  <h1>Lifetime Snack Supply Calculator</h1>
+  <p id="result"></p>
+
+  <script>
+    let age = window.prompt("Enter your age : ", "14");
+    let maxAge = window.prompt("You will live until the ripe old age of : ", "100");
+    let numPerDay = window.prompt("Number of Snacks daily : ", 3);
+
+    if (window.confirm(`Sure of your numbers ${age}, ${maxAge}, ${numPerDay}?`)) {
+      let totalRequired = (Number(numPerDay) * 365) * (Number(maxAge) - Number(age));
+
+      document.write(`You will need ${totalRequired} to last you until the ripe old age of ${maxAge}.`);
+      alert(`You will need ${totalRequired} to last you until the ripe old age of ${maxAge}.`);
+      console.log("You will need " + totalRequired + " to last you until the ripe old age of " + maxAge + ".");
+    }
+    else {
+        window.alert("Please click run again")
+
+    }
+  </script>
+</body>
+</html>
