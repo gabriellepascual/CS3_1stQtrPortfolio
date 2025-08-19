@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meal Price, Tip, & Service Charge Calculator</title>
+</head>
+<body>
+
+    <h2>Q1 2nd Graded Exercise submitted by Gabrielle Pascual of 9Rubidium</h2>
+
+    <div>
+        <label for="mealPrice">Meal Price:</label>
+        <input id="inp_mealPrice">
+    </div>
+    <div>
+        <label for="tip">Tip:</label>
+        <input id="inp_tip">
+    </div>
+    <div>
+        <label for="serviceCharge">Service Charge:</label>
+        <input id="inp_serviceCharge">
+    </div>
+
+    <br><button onclick="totalMeal()">Accept Input</button>
+    <p>Total Meal: <span id="totalCost"></span></p>
+
+    <script>
+        function totalMeal() {
+            const mealPrice = parseFloat(document.getElementById('inp_mealPrice').value);
+            const tip = parseFloat(document.getElementById('inp_tip').value);
+            const serviceCharge = parseFloat(document.getElementById('inp_serviceCharge').value);
+
+            const totalCost = mealPrice + tip + (serviceCharge / 100 * mealPrice);
+
+            document.getElementById('totalCost').innerText = totalCost.toFixed(2);
+        }
+    </script>
+    
+    <footer>
+        <p>Citations: <br> W3Schools.com. (n.d.). <a href="https://www.w3schools.com/jsref/jsref_tofixed.asp" target="_blank">https://www.w3schools.com/jsref/jsref_tofixed.asp</a></p>
+    </footer>
+
+</body>
+</html>
