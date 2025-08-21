@@ -22,9 +22,9 @@
             const userGuess = parseInt(document.getElementById('inp_guess').value);
             
             if (userGuess > dNumber) {
-                document.getElementById('result').innerText = "Higher";
-            } else if (userGuess < dNumber) {
                 document.getElementById('result').innerText = "Lower";
+            } else if (userGuess < dNumber) {
+                document.getElementById('result').innerText = "Higher";
             } else {
                 document.getElementById('result').innerText = "You are correct!";
             }
