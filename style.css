@@ -7,7 +7,7 @@ html, body {
 }
 
 body {
-  background-image: url("images/peppa_pig.jpg");
+  background-image: url("bg_image/peppa_pig.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -55,3 +55,4 @@ body {
 .w3-container a:hover {
   text-decoration: underline;
 }
+

@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+body {
+  background: linear-gradient(135deg, #f8eafc, #fff8e1, #ffe4ec);
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+h1 {
+  color: #4e342e;
+  margin-bottom: 30px;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  flex-wrap: wrap;
+}
+
+.profile {
+  border: 2px solid #6a1b9a;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 1em;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.profile:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  background-color: #f3e5f5;
+}
+
+.profile img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 3px solid #ba68c8;
+}
+
+.profile ul {
+  text-align: left;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.profile h4 {
+  font-style: italic;
+  font-weight: normal;
+  margin-top: 10px;
+  color: #444;
+}
+
+.rarity {
+  border-color: #9c27b0;
+}
+.rarity img {
+  border-color: #9c27b0;
+}
+
+.fluttershy {
+  border-color: #fbc02d;
+}
+.fluttershy img {
+  border-color: #fbc02d;
+}
+
+.pinkiepie {
+  border-color: #ec407a;
+}
+.pinkiepie img {
+  border-color: #ec407a;
+}
